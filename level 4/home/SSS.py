@@ -81,4 +81,34 @@ age = int(age)
 print("გამარჯობა,", name)
 print("ასაკია:", age)
 
+age = int(input("შენი ასაკი: "))
+score = int(input("შენი ქულა: "))
+
+if age >= 18 and score > 50:
+    print("შენ მიღებული ხარ!")
+else:
+    print("ვერ გაიარე")
+
+
+Z = int(input("პირველი რიცხვი: "))
+G = int(input("მეორე რიცხვი: "))
+
+if Z > 0 or G > 0:
+    print("ერთ ერთი მაინც დადებითია")
+else:
+    print("ორივე უარყოფითია ან ნულია")
+
+
+
+username = input(" მომხმარებლის სახელი: ")
+password = input("შეიყვანე პაროლი: ")
+
+if username == "admin" and password == "1234":
+    print("წარმატებით შეხვედით")
+else:
+    print("არასწორი მონაცემები")
+
+
+
+
 
