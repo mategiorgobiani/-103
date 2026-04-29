@@ -2,6 +2,32 @@
 
 
 
+print(True and True)   
+
+print(True and False)  
+
+
+print(False and False) 
+
+
+print(True or False)   
+
+
+print(False or False)  
+
+
+print(True or True)    
+
+print(False and True)
+
+print(False and True)
+
+print(True or True )
+
+print(False or True)
+
+
+
 print(5 > 23 and 10 > 2)
 
 print(5 > 10 or 3 < 8)
