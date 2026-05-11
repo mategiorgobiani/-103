@@ -66,7 +66,7 @@ print(info)
 
 
 
-name = "mate"
+#name = "mate"
 last_name = "giorgobiani"
 
 full_name = name + " " + last_name
@@ -107,7 +107,7 @@ print(h + z)
 print(j + j)
 print(j + z)
 
-print(z+z)
+#print(z+z)
 
 
 

@@ -55,16 +55,16 @@
 
     
 
-n = int(input("შეიყვანე რიცხვი: "))
+# n = int(input("შეიყვანე რიცხვი: "))
 
-result = 1
-i = 1
+# result = 1
+# i = 1
 
-while i <= n:
-    result = result * i
-    i = i + 1
+# while i <= n:
+#     result = result * i
+#     i = i + 1
 
-print("ფაქტორიალია:", result)
+# print("ფაქტორიალია:", result)
 
 
 

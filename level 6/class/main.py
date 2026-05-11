@@ -29,4 +29,6 @@ while a != name or b != password:
     b = input("შეიყვანე პაროლი: ")
 
 print("access granted")
+#while ციკლი
+#ქაუნთერი
 

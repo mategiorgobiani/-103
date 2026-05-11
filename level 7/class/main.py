@@ -65,12 +65,71 @@
 
 
 
-num = int(input('enter number:'))
+# num = int(input('enter number:'))
+
+# if num > 0:
+#     if num % 2 == 0:
+#         print('number is positive and even')
+#     else:
+#         print('Odd')
+# else:
+#     print('Negative Numver')
+
+
+
+# count =1
+
+# while count <= 5:
+#     if count == 3:
+#         count += 1
+#         continue
+#     else:
+#         print('Number:  ', count)
+#     count += 1
+
+
+
+
+
+
+count = 1
+
+while count <5:
+    if count == 3:
+        print('good')
+    else:
+        print('bad')
+    count += 1
+
+i = 5
+
+
+for i in range(1 ,15):
+    if i % 4 == 0:
+       print(i, 'goood')
+    else:
+       print(i, 'bad')
+    
+
+
+
+num = int(input("რიცხვი: "))
 
 if num > 0:
     if num % 2 == 0:
-        print('number is positive and even')
+        print("დადებითი და ლუწია")
     else:
-        print('Odd')
-else:
-    print('Negative Numver')
+        print("დადებითი და კენტია")
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -87,15 +87,15 @@
 # print("ლუწი რიცხვების რაოდენობა:", a)
 # print("კენტი რიცხვების რაოდენობა:", b)
 
-a = int(input("შეიყვანე რიცხვი: "))
+# a = int(input("შეიყვანე რიცხვი: "))
 
-for i in range(4):
-    num = int(input("შეიყვანე რიცხვი: "))
+# for i in range(4):
+#     num = int(input("შეიყვანე რიცხვი: "))
 
-    if num > a:
-        a = num
+#     if num > a:
+#         a = num
 
-print("ყველაზე დიდი რიცხვია:", a)
+# print("ყველაზე დიდი რიცხვია:", a)
     
 
 
