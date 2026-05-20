@@ -28,9 +28,16 @@ print('გათმაგებული რიცხვები')
 for num in numbers:
    print(num * 10)
 
-print('gamoitane')
-if num % 97 :
-   print(num)
+sum_numbers = 0
+for num in numbers:
+    sum_numbers += num
+
+print("რიცხვების ჯამი:", sum_numbers)
+
+print("97ზე გამყოფი რიცხვები:")
+for num in numbers:
+    if num % 97 == 0:
+        print(num)
 
 
 
