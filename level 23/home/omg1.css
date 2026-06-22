@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+.subject-list {
+    background-color: lightgray;
+}
+
+.description {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
