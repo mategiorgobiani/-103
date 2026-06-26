@@ -1,0 +1,35 @@
+
+ table{
+      width: 70%;
+      margin: 50px auto;
+      border-collapse: collapse;
+      font-family: Arial, sans-serif;
+
+
+
+ }
+
+
+th {
+    background-color: #8ecae6;
+    color: black;
+    padding: 12px;
+    border: 2px solid #b08968;
+}
+
+td {
+    
+    text-align: center;
+    border: 1px dashed #333;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: #a8dadc;
+}
+
+
+
+
+
+

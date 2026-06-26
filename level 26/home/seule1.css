@@ -1,0 +1,53 @@
+
+ table{
+    
+      width: 67%;
+      margin: 50px auto;
+      border-collapse: collapse;
+      font-family: Arial, sans-serif;
+
+
+
+ }
+
+
+body{
+    background: linear-gradient(#5d1fe4,#ce26c8, #711cae);
+    
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    
+    font-family: Arial,sans-serif;
+
+
+
+}
+thead{
+    background:  linear-gradient(to right, #9c4ab0, #a454ba);
+
+
+
+
+
+
+
+}
+
+thead th {
+    padding: 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+tbody tr{
+    background-color: rgb(255, 255, 255, 0.08 );
+    
+
+}
+tbody td{
+    padding: 14px;
+    font-size: 14px;
+
+}
+

@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+}
+
+.table-container{
+    width:1140px;
+    background:#fff;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+thead{
+    background:#66bb7a;
+}
+
+thead th{
+    color:white;
+    padding:18px;
+    font-size:20px;
+    text-align:left;
+    font-family:Courier New, monospace;
+    font-weight:normal;
+}
+
+tbody td,
+tfoot td{
+    padding:18px 10px;
+    font-size:16px;
+    border-bottom:1px solid #cfcfcf;
+}
+
+tfoot td{
+    font-weight:bold;
+}

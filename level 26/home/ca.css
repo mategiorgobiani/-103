@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+a{
+    font-size: 22px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+
+a:link{
+    color: blue;
+}
+
+
+a:visited{
+    color: purple;
+}
+
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+
+a:active{
+    color: green;
+}
+
+
+a:focus{
+    outline: 3px solid orange;
+    background-color: yellow;
+}
