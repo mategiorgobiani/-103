@@ -1,0 +1,27 @@
+body{
+    background :linear-gradient(gray);
+
+
+
+}
+.move-list{
+
+    background-color: rgb(231, 192, 164);
+    text-align: center;
+
+}
+.move-text{
+    font-size: medium;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+
+
+
+
+}
+h1{
+    font-family: Arial, sans-serif;
+
+    text-align: center;
+}

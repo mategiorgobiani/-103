@@ -1,0 +1,41 @@
+
+ table{
+    
+      width: 67%;
+      margin: 50px auto;
+      border-collapse: collapse;
+      font-family: Arial, sans-serif;
+
+
+
+ }
+
+
+th {
+    background: linear-gradient( rgb(78, 195, 78),rgb(113, 23, 23));
+    color: black;
+    padding: 12px;
+    border: 2px solid rgb(113, 23, 23);
+}
+
+td {
+    
+    text-align: center;
+    border: 1px dashed rgb(113, 23, 23);
+}
+
+
+tbody tr:nth-child(even) {
+    border-radius: 50px;
+    background:linear-gradient(rgb(113, 23, 23), rgb(78, 195, 78)) ;
+}
+
+
+td {
+    
+    text-align: center;
+    border: 1px  rgb(113, 23, 23);
+}
+
+
+

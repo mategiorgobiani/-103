@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+ul{
+    font-family: fantasy ;
+    color: white;
+    background-color: black;
+}
+h3{
+    color: white;
+    background-color: black;
+}
+body{
+    background-color: black;
+
+}
+p{
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.God {
+
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+          
+}
