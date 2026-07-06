@@ -1,0 +1,113 @@
+/* 
+BOX MODEL
+
+Box Model შედგება 4 ფენისგან:
+
+1. Content - ელემენტის შიგთავსი (ტექსტი, სურათი და ა.შ.)
+2. Padding - სივრცე Content-სა და Border-ს შორის.
+3. Border - ელემენტის ჩარჩო.
+4. Margin - გარე სივრცე ელემენტებს შორის.
+
+ */
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f5f5f5;
+    text-align:center;
+}
+
+.box{
+    background:skyblue;
+    padding:15px;
+    margin:10px;
+    border:2px solid blue;
+}
+
+.inline{
+    background:orange;
+    padding:10px;
+    margin:5px;
+    border:2px solid red;
+}
+
+
+.min1{
+    width:20%;
+    min-width:100px;
+    background:lightgreen;
+    margin:10px auto;
+    padding:10px;
+}
+
+.min2{
+    width:30%;
+    min-width:150px;
+    background:lightblue;
+    margin:10px auto;
+    padding:10px;
+}
+
+.min3{
+    width:40%;
+    min-width:200px;
+    background:lightcoral;
+    margin:10px auto;
+    padding:10px;
+}
+
+.min4{
+    width:50%;
+    min-width:250px;
+    background:khaki;
+    margin:10px auto;
+    padding:10px;
+}
+
+.min5{
+    width:60%;
+    min-width:300px;
+    background:plum;
+    margin:10px auto;
+    padding:10px;
+}
+
+
+.max1{
+    width:100%;
+    max-width:200px;
+    background:cyan;
+    margin:10px auto;
+    padding:10px;
+}
+
+.max2{
+    width:100%;
+    max-width:300px;
+    background:pink;
+    margin:10px auto;
+    padding:10px;
+}
+
+.max3{
+    width:100%;
+    max-width:400px;
+    background:lightgray;
+    margin:10px auto;
+    padding:10px;
+}
+
+.max4{
+    width:100%;
+    max-width:500px;
+    background:lightseagreen;
+    margin:10px auto;
+    padding:10px;
+}
+
+.max5{
+    width:100%;
+    max-width:600px;
+    background:gold;
+    margin:10px auto;
+    padding:10px;
+}
