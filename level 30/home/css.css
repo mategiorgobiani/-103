@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 200vh;
+    text-align: center;
+    background-color: blue;
+}
+
+
+footer{
+    background-color: darkslateblue;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+
+
+}
+
+.top:hover{
+    background-color: darkgreen;
+    transform: scale(1.1);
+}
