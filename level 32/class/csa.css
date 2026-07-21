@@ -1,0 +1,55 @@
+
+
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    background:rgb(0, 0, 0);
+    overflow:hidden;
+}
+
+.box{
+    width:90px;
+    height:50px;
+    background:#64cda6;
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:5px;
+
+    animation: example 4s ease-in-out infinite alternate;
+}
+
+@keyframes example{
+    0%{transform:translateX(0) rotate(0deg);}
+
+    25%{transform:translateX(150px) rotate(90deg);}
+
+    50%{transform:translateX(300px) rotate(180deg);}
+
+    75%{transform:translateX(450px) rotate(270deg);}
+
+    100%{transform:translateX(600px) rotate(345deg);}
+
+
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: myAnimation;
+  animation-duration: 4s;
+}
+
+

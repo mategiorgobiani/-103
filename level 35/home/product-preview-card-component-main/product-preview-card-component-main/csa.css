@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+         
+}
+
+
+
+.jone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: white;
+    
+    
+    
+}
+
+
+h2{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    
+    
+}
+
+.Cart{
+    display: flex;
+    margin-left: 20px;
+    border: 4px solid    hsl(158, 36%, 37%);
+    background: hsl(158, 36%, 37%) ;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+
+}
+.text{
+    display: flex;
+    color: gray;
+    
+}
+
+.fals{
+     display: flex;
+    margin-right: 30px;
+    margin-bottom: 0px;
+    
+}
+
+.fols{
+    display: flex;
+    width: 292px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.name{
+    color: gray;
+}
+
+h1{
+    color: hsl(158, 36%, 37%);
+}
+
+h5{
+    display: flex;
+    margin-left: 120px;
+    margin-top: -20px;
+    text-decoration: line-through;
+}
