@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100hv;
+    background-color: rgb(25, 47, 71);
+
+}
+
+
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    margin-top: 100px;
+    border-radius: 6px;
+}
+
+.equ{
+    display: flex;
+    margin-top: 10px;
+    color: white;
+}
+
+.our{
+    display: flex;
+    margin-top: 10px;
+    color: gray;
+}
+
+.svg{
+    display: flex;
+    width: 8px;
+    margin-top: 20px;
+}
+
+.eth{
+    display: flex;
+    margin-left: 16px;
+    margin-top: -12px;
+    color: aqua;
+}
+
+.ico{
+    display: flex;
+    margin-left:  110px;
+    width: 15px;
+    margin-top: -15px;
+}
+
+.days{
+    display: flex;
+    margin-left: 130px;
+    margin-top: -15px;
+    color: aqua;
+    
+}
+
+.as{
+    display: flex;
+    border: 4px solid  hsl(228, 12%, 48%);
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

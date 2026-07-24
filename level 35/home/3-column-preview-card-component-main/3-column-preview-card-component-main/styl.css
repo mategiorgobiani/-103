@@ -36,11 +36,13 @@ h2{
     padding-top: 20px;
     border: 6px  solid hsl(31, 77%, 52%); 
     padding-right: 20px;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
     background-color:hsl(31, 77%, 52%) ;
     border-top-left-radius:8px ;
     border-bottom-left-radius:8px ;
     padding-left: 20px;
+    box-shadow: 0 10px 30px rgb(0, 0, 0 ,0.568);
+
 }
 
 
@@ -48,28 +50,34 @@ h2{
     padding-top: 20px;
     border: 6px solid hsl(184, 100%, 22%);
     padding-right: 20px;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
     padding-left: 20px;
     background-color: hsl(184, 100%, 22%);
+    box-shadow: 0 10px 30px rgb(0, 0, 0 ,0.568);
+
 }
 .luxury {
     padding-top: 20px;
     border: 6px solid hsl(179, 100%, 13%);
     padding-right: 20px;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
     background-color: hsl(179, 100%, 13%);
     border-top-right-radius:8px ;
     border-bottom-right-radius:8px ;
     padding-left: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.568);
+
 }
 
 .Lsedans, .Lsuvs, .Lluxury {
     background-color: white; 
     display: inline-block;   
-    padding: 12px 10px;  
+    padding: 10px 12px;  
     transition: all 0.2s ease; 
     border: 2px solid white; 
-    border-radius: 8px;
+    border-radius: 19px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0);
+
 }
 
 
@@ -88,7 +96,9 @@ h2{
     color: white;
 }
 
-
+p{
+    font-weight: normal;
+}
 
 
 

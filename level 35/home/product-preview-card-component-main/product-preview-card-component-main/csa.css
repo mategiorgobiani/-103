@@ -95,3 +95,8 @@ h5{
     margin-top: -20px;
     text-decoration: line-through;
 }
+
+.Cart:hover{
+    background-color: transparent;
+    color: black;
+}
