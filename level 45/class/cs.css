@@ -1,0 +1,42 @@
+.box1 {
+    width: 200px;
+    height: 100px;
+    background: rgba(0, 0, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.box2 {
+    width: 200px;
+    height: 100px;
+    background: rgba(255, 0, 0, 0.5);
+    backdrop-filter: brightness(50%);
+}
+
+.image1 {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.image2 {
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.box3 {
+    position: relative;
+    left: 30px;
+    background: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+.box4 {
+    position: absolute;
+    right: 30px;
+    top: 500px;
+    background: lightgreen;
+    width: 100px;
+    height: 100px;
+}

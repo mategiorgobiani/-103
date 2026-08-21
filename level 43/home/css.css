@@ -1,0 +1,107 @@
+
+:root {
+  --main-color: blue;
+}
+
+
+:root {
+  --bg-color: black;
+  --text-color: white;
+}
+
+:root {
+  --font-size: 20px;
+}
+
+
+:root {
+  color: red;
+}
+
+
+:root {
+  --main-color: purple;
+  --padding: 20px;
+}
+
+button {
+  background: var(--main-color);
+  padding: var(--padding);
+}
+
+.box1 {
+  position: relative;
+  z-index: 1;
+}
+
+.box2 {
+  position: relative;
+  z-index: 2;
+}
+
+.red {
+  position: absolute;
+  z-index: 10;
+}
+
+.text {
+  position: absolute;
+  z-index: 2;
+}
+
+.image {
+  position: absolute;
+  z-index: 1;
+}
+
+.menu {
+  position: fixed;
+  z-index: 999;
+}
+
+.background {
+  position: absolute;
+  z-index: -1;
+}
+
+.box1 {
+  float: left;
+}
+
+.box2 {
+  float: right;
+}
+
+.image {
+  float: left;
+  margin-right: 10px;
+}
+
+.text {
+  clear: both;
+}
+
+.footer {
+  clear: left;
+}
+
+
+.box {
+  -webkit-transform: rotate(45deg);
+}
+
+.text {
+  -moz-user-select: none;
+}
+
+.element {
+  -ms-transform: scale(1.2);
+}
+
+.animation {
+  -webkit-animation: move 2s;
+}
+
+.gradient {
+  -webkit-linear-gradient(red, blue);
+}
